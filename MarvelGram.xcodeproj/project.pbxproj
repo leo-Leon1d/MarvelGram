@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55300BA222D5CBC0C7C22DD2 /* Pods_MarvelGram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED197AFA544CAE143F517E7D /* Pods_MarvelGram.framework */; };
 		BF60E253280730180085E2DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF60E252280730180085E2DD /* AppDelegate.swift */; };
 		BF60E255280730180085E2DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF60E254280730180085E2DD /* SceneDelegate.swift */; };
-		BF60E257280730180085E2DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF60E256280730180085E2DD /* ViewController.swift */; };
+		BF60E257280730180085E2DD /* GalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF60E256280730180085E2DD /* GalleryVC.swift */; };
 		BF60E25A280730180085E2DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF60E258280730180085E2DD /* Main.storyboard */; };
 		BF60E25C280730190085E2DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF60E25B280730190085E2DD /* Assets.xcassets */; };
 		BF60E25F280730190085E2DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF60E25D280730190085E2DD /* LaunchScreen.storyboard */; };
+		BF60E268280738750085E2DD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF60E267280738750085E2DD /* Model.swift */; };
+		BF60E274280C09230085E2DD /* HeroesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF60E273280C09230085E2DD /* HeroesCollectionViewCell.swift */; };
+		BF60E2792816ECCE0085E2DD /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF60E2782816ECCE0085E2DD /* DetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		353FAE754659B7965353512E /* Pods-MarvelGram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelGram.release.xcconfig"; path = "Target Support Files/Pods-MarvelGram/Pods-MarvelGram.release.xcconfig"; sourceTree = "<group>"; };
+		38F0151DA3E8933480C37AB0 /* Pods-MarvelGram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarvelGram.debug.xcconfig"; path = "Target Support Files/Pods-MarvelGram/Pods-MarvelGram.debug.xcconfig"; sourceTree = "<group>"; };
 		BF60E24F280730180085E2DD /* MarvelGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarvelGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF60E252280730180085E2DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF60E254280730180085E2DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BF60E256280730180085E2DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF60E256280730180085E2DD /* GalleryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryVC.swift; sourceTree = "<group>"; };
 		BF60E259280730180085E2DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF60E25B280730190085E2DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF60E25E280730190085E2DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF60E260280730190085E2DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF60E267280738750085E2DD /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BF60E273280C09230085E2DD /* HeroesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroesCollectionViewCell.swift; sourceTree = "<group>"; };
+		BF60E2782816ECCE0085E2DD /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		ED197AFA544CAE143F517E7D /* Pods_MarvelGram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MarvelGram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55300BA222D5CBC0C7C22DD2 /* Pods_MarvelGram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B037687CEC4282ABB8711C00 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				38F0151DA3E8933480C37AB0 /* Pods-MarvelGram.debug.xcconfig */,
+				353FAE754659B7965353512E /* Pods-MarvelGram.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BF60E246280730170085E2DD = {
 			isa = PBXGroup;
 			children = (
 				BF60E251280730180085E2DD /* MarvelGram */,
 				BF60E250280730180085E2DD /* Products */,
+				B037687CEC4282ABB8711C00 /* Pods */,
+				DF0E08C4A54003143DD150EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +78,26 @@
 		BF60E251280730180085E2DD /* MarvelGram */ = {
 			isa = PBXGroup;
 			children = (
-				BF60E252280730180085E2DD /* AppDelegate.swift */,
-				BF60E254280730180085E2DD /* SceneDelegate.swift */,
-				BF60E256280730180085E2DD /* ViewController.swift */,
 				BF60E258280730180085E2DD /* Main.storyboard */,
-				BF60E25B280730190085E2DD /* Assets.xcassets */,
+				BF60E256280730180085E2DD /* GalleryVC.swift */,
+				BF60E2782816ECCE0085E2DD /* DetailsVC.swift */,
+				BF60E267280738750085E2DD /* Model.swift */,
+				BF60E273280C09230085E2DD /* HeroesCollectionViewCell.swift */,
+				BF60E252280730180085E2DD /* AppDelegate.swift */,
 				BF60E25D280730190085E2DD /* LaunchScreen.storyboard */,
+				BF60E254280730180085E2DD /* SceneDelegate.swift */,
+				BF60E25B280730190085E2DD /* Assets.xcassets */,
 				BF60E260280730190085E2DD /* Info.plist */,
 			);
 			path = MarvelGram;
+			sourceTree = "<group>";
+		};
+		DF0E08C4A54003143DD150EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED197AFA544CAE143F517E7D /* Pods_MarvelGram.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF60E263280730190085E2DD /* Build configuration list for PBXNativeTarget "MarvelGram" */;
 			buildPhases = (
+				594ECECB7EA969DAAD049DB9 /* [CP] Check Pods Manifest.lock */,
 				BF60E24B280730170085E2DD /* Sources */,
 				BF60E24C280730170085E2DD /* Frameworks */,
 				BF60E24D280730170085E2DD /* Resources */,
+				36CC08F4E13118912D8A8950 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +167,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36CC08F4E13118912D8A8950 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarvelGram/Pods-MarvelGram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MarvelGram/Pods-MarvelGram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MarvelGram/Pods-MarvelGram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		594ECECB7EA969DAAD049DB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MarvelGram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF60E24B280730170085E2DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF60E257280730180085E2DD /* ViewController.swift in Sources */,
+				BF60E274280C09230085E2DD /* HeroesCollectionViewCell.swift in Sources */,
+				BF60E2792816ECCE0085E2DD /* DetailsVC.swift in Sources */,
+				BF60E257280730180085E2DD /* GalleryVC.swift in Sources */,
 				BF60E253280730180085E2DD /* AppDelegate.swift in Sources */,
 				BF60E255280730180085E2DD /* SceneDelegate.swift in Sources */,
+				BF60E268280738750085E2DD /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +363,7 @@
 		};
 		BF60E264280730190085E2DD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38F0151DA3E8933480C37AB0 /* Pods-MarvelGram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +383,7 @@
 		};
 		BF60E265280730190085E2DD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 353FAE754659B7965353512E /* Pods-MarvelGram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
